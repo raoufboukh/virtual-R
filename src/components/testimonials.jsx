@@ -4,7 +4,7 @@ const Testimonials = () => {
   return (
     <section className="py-20">
       <div className="container">
-        <h2 className="text-white text-center text-5xl">
+        <h2 className="text-white text-center text-4xl md:text-5xl">
           What People Are Saying
         </h2>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(310px,1fr))] my-8">

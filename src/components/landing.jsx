@@ -4,8 +4,8 @@ const Landing = () => {
   return (
     <section className="pt-36 pb-16">
       <div className="container">
-        <div className="w-[600px] mx-auto ">
-          <h2 className="text-white text-6xl  text-center leading-[1.1] mb-5">
+        <div className="md:w-[600px] mx-auto ">
+          <h2 className="text-white text-5xl md:text-6xl  text-center leading-[1.1] mb-5">
             VirtualR build tools <span className="text-orange-400">for </span>
             <span className="text-transparent bg-gradient-to-r from-orange-400 to-orange-700 bg-clip-text">
               developers
@@ -25,7 +25,7 @@ const Landing = () => {
             </button>
           </div>
         </div>
-        <div className="grid grid-cols-2 gap-4 my-20">
+        <div className="grid md:grid-cols-2 gap-4 my-20">
           {videos.map((video) => {
             return (
               <div key={video.id} className="relative">

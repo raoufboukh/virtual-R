@@ -13,6 +13,24 @@ import user3 from "../components/assets/user3.jpg";
 import user4 from "../components/assets/user4.jpg";
 import user5 from "../components/assets/user5.jpg";
 import user6 from "../components/assets/user6.jpg";
+export const navLinks = [
+  {
+    id: 1,
+    text: "Features",
+  },
+  {
+    id: 2,
+    text: "Workflow",
+  },
+  {
+    id: 3,
+    text: "Pricing",
+  },
+  {
+    id: 4,
+    text: "Testimonials",
+  },
+];
 export const videos = [
   {
     id: 1,
