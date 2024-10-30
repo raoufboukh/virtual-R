@@ -44,7 +44,13 @@ const Navbar = () => {
                     key={nav.id}
                     className="my-5 text-center lg:my-0 mx-4 text-white cursor-pointer transition-all duration-300 hover:text-orange-500"
                   >
-                    <Link to={nav.href} duration={300} smooth={true}>
+                    <Link
+                      className="block"
+                      to={nav.href}
+                      duration={300}
+                      smooth={true}
+                      onClick={() => setShow(false)}
+                    >
                       {nav.text}
                     </Link>
                   </li>
