@@ -3,7 +3,7 @@ import logo from "./assets/logo.png";
 import { navLinks } from "./constants";
 import { IoMenu } from "react-icons/io5";
 import { IoCloseSharp } from "react-icons/io5";
-// import { Link } from "react-scroll";
+import { Link } from "react-scroll";
 const Navbar = () => {
   const [scr, setScr] = useState(0);
   const [show, setShow] = useState(false);
@@ -44,7 +44,9 @@ const Navbar = () => {
                     key={nav.id}
                     className="my-5 text-center lg:my-0 mx-4 text-white cursor-pointer transition-all duration-300 hover:text-orange-500"
                   >
-                    {nav.text}
+                    <Link to={nav.href} duration={300} smooth={true}>
+                      {nav.text}
+                    </Link>
                   </li>
                 );
               })}

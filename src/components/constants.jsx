@@ -17,18 +17,22 @@ export const navLinks = [
   {
     id: 1,
     text: "Features",
+    href: "features",
   },
   {
     id: 2,
     text: "Workflow",
+    href: "workflow",
   },
   {
     id: 3,
     text: "Pricing",
+    href: "pricing",
   },
   {
     id: 4,
     text: "Testimonials",
+    href: "testimonials",
   },
 ];
 export const videos = [

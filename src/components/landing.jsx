@@ -2,7 +2,7 @@ import { videos } from "./constants";
 
 const Landing = () => {
   return (
-    <section className="pt-36 pb-16">
+    <section className="pt-36">
       <div className="container">
         <div className="md:w-[600px] mx-auto ">
           <h2 className="text-white text-5xl md:text-6xl  text-center leading-[1.1] mb-5">

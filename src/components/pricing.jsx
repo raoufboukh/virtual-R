@@ -3,7 +3,7 @@ import { MdOutlineCheckCircle } from "react-icons/md";
 
 const Pricing = () => {
   return (
-    <section>
+    <section className="pt-20" id="pricing">
       <div className="container">
         <h2 className="text-white text-center text-5xl">Pricing</h2>
         <div className="grid gap-3 grid-cols-[repeat(auto-fill,minmax(310px,1fr))] my-8">

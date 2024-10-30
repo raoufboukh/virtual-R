@@ -3,7 +3,7 @@ import { workflow } from "./constants";
 import { MdOutlineCheckCircle } from "react-icons/md";
 const Workflow = () => {
   return (
-    <section className="py-20">
+    <section className="pt-20" id="workflow">
       <div className="container">
         <h2 className="text-white text-4xl md:text-5xl text-center">
           Accelerate your{" "}
